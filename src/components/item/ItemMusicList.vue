@@ -48,10 +48,10 @@ export default {
   props: ["itemList", "subscribedCount"],
   methods:{
     playMusic:function(i){
-      this.updatePlayList(this.itemList)
+      this.updatePlaList(this.itemList)
       this.updatePlayListIndex(i)
     },
-    ...mapMutations(['updatePlayList','updatePlayListIndex'])
+    ...mapMutations(['updatePlaList','updatePlayListIndex'])
   }
 };
 </script>
